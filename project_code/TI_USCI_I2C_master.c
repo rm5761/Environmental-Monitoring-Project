@@ -20,10 +20,6 @@
 //
 // Note: External pull-ups are needed for SDA & SCL
 //
-// Uli Kretzschmar
-// Texas Instruments Deutschland GmbH
-// November 2007
-// Built with IAR Embedded Workbench Version: 3.42A
 //******************************************************************************
 #include "msp430g2553.h"                        // device specific header
 //#include "msp430x22x4.h"
@@ -247,5 +243,6 @@ __interrupt void USCIAB0TX_ISR(void)
     }
   }
 }
+
 
 
