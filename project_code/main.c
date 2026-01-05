@@ -1,3 +1,8 @@
+///////////////////////////////////////////////
+//Main code for environmental control project
+//Rishi Madivada
+///////////////////////////////////////////////
+
 #include <msp430g2553.h>
 #include "TI_USCI_I2C_master.h"
 #include "ECS_header.h"
@@ -185,3 +190,4 @@ __interrupt void Timer_A0_ISR(void) {
         TACTL &= ~MC_1;
     }
 }
+
